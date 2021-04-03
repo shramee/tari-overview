@@ -1,5 +1,6 @@
 # Tari GSoC overview
 
+- [x] `background.js` sends test messages.
 - [x] `contentScript.js` listens for messages from `background.js`
 - [ ] `contentScript.js` inside the listener function **creates a synthetic event** with message from background.
 - [ ] `contentScript.js` emits the created event on `document`.
